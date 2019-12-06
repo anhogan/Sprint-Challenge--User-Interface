@@ -144,3 +144,81 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Header Styling */
+header {
+  margin-bottom: 3%;
+}
+
+nav {
+  width: 100%;
+  margin: 2% 0% 5% 0%;
+}
+
+nav a {
+  width: 100%;
+  text-decoration: none;
+  color: black;
+  margin-right: 4.5%;
+  margin-left: 5%;
+}
+
+/* Box Styling */
+div.box:nth-child(1) {
+  background: teal;
+}
+
+/* About Page Styling */
+.about-top-content {
+  border-bottom: 1px dashed black;
+}
+
+.about-top-content .text-container {
+  width: 100%;
+  padding: 0% 1% 0% 2%;
+  padding-bottom: 3%;  
+}
+
+.about-middle-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 3%;
+}
+
+.about-middle-content .text-container {
+  width: 48%;
+  padding: 3% 1% 0% 1%;
+  padding-bottom: 3%;
+  border-bottom: 1px dashed black;  
+}
+
+.topMargin {
+  padding-top: 7%;
+}
+
+.halfWidth {
+  padding-bottom: 4%;
+}
+
+.extraPadding {
+  padding-bottom:  5%;
+}
+
+button {
+  padding: 2%;
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 35%;
+  font-size: 16px;
+}
+
+.about-bottom-content {
+  margin-bottom: 3%;
+}
+
+.about-bottom-content .text-container {
+  width: 100%;
+  padding: 3% 1% 0% 2%;
+  padding-bottom: 3%;  
+}
